@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+            <div class="row">  
+      <div class="col-md-1 mt-2">
+        <img src="logo.PNG" alt="">
+      </div>
+              <div class="col-md-8 mt-4  ml-4 p-0" >
+              <h2 style="font-weight: bolder; text-decoration: underline; color: rgb(9, 48, 9);" >BOARD OF INTERMEDIATE EDUCATION, KARACHI</h2>
+              <h6 class="ml-md-5" >EXAMINATION FORM FOR H.S.C. PART-I COMMERCE GROUP</h6>
+             <h6 class="ml-md-5" >FOR PRIVATE CANDIDATES ANNUAL <span>2</span><span>0</span>
+              <input id="year1" type="text" size="1px"> <input id="year2" type="text" size="1px"></h6>      
+     <span class="ml-md-5" style="color: whitesmoke; background-color: rgb(9, 48, 9); font-size: 1.2em; font-weight: bold;line-height: 0px;">COMMERCE PRIVATE GROUP</span>      
+            </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <span style="font-size: 2em; font-weight: bolder;">CP-XI</span>          
+        </div>
+       
+        <div class="col-md-5" >
+          <input type="file" id="picture" style="border: 1px solid black; height:150px; margin-top: -px;">
+      </div>
+        <div class="col-md-5 ml-auto">
+          <input type="text" placeholder="Roll No:" id="rollNO" style="height: 80px; text-align: center;" >
+          <p><input type="text" placeholder="Registration No: " id="regisNo" style="height: 80px; text-align: center;"></p>      
+        </div>
+      </div>
+     <div class="row">
+       <div class="col-md-12">
+       <p>Name: <input id="name" type="text" size="104px"> </p>
+       <p>Father Name: <input id="fatherName" type="text" size="98px"> </p>
+       <p> Date of Birth: <input type="date" id="dOB"> Nationality: <input type="text" size="10px" id="nationality"> Male/Female: <input type="text" id="mF" size="10px">
+       Religion: <input type="text" id="religion" size="8px"></p>
+       <p>Residential Address: <input type="text" id="ResiAdd" size="92px"> </p>
+       <p>CNIC No: <input type="text" id="CNIC" size="30px"> Contact No: <input type="text" id="contactNO" size="20px"> Postal Code: <input id="postCod" type="text" size="15px"></p>
+       <p>Mark of identification: <input id="mOI" type="text" size="90px"> </p>
+       </div>
+      </div>
+      <div class="row">
+      <div class="col-md">
+        <p style="font-weight: bold;">DETAILS OF PREVIOUS EXAMINATIONS PASSED / CLEARED</p>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div class="table-responsive">
+            <table class="table" >
+              <tr>
+                <td>S. NO</td>
+                <td>NAME OF EXAMINATION</td>
+                <td>BOARD / EXAMINATION BODY</td>
+                <td>ROLL NO.</td>
+                <td>GROUP </td>
+                <td>YEAR</td>
+                <td>GRADE + MARKS</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>S.S.C. OR EQUIVALENT</td>
+                <td><input id="sscBoard" type="text" size="26px"></td>
+                <td><input id="sscRoll" type="text" size="20px"></td>
+                <td><input id="sscGroup" type="text" size="10px"></td>
+                <td><input id="sscYear" type="text" size="10px"></td>
+                <td><input id="sscGrade" type="text" size="12px"></td>
+               </tr>
+               <tr>
+                <td>2</td>
+                <td>H.S.C. PART-I <br>(EXTERNAL)</td>
+                <td><input id="hscBoard" type="text" size="26px"></td>
+                <td><input id="hscRoll" type="text" size="20px"></td>
+                <td><input id="hscGroup" type="text" size="10px"></td>
+                <td><input id="hscYear" type="text" size="10px"></td>
+                <td><input id="hscGrade" type="text" size="12px"></td>
+               </tr>
+            </table>
+          </div>
+
+        </div>
+
+      </div>
+    <div class="row">
+      <div class="col-md p-2" style="border: 5px solid rgb(37, 37, 37);">
+    <p style="font-size: 1.3em; font-weight: bold; text-decoration: underline;">FOLLOWING DOCUMENTS MUST BE ATTACHED, ATTESTED BY THE CONCERNED PRINCIPAL</p>
+    <p>(1) Attested Photocopy of S.S.C. Marks Sheet (2) Photocopy of Registration Card (3) Permission Letter (If Required)</p>  
+  </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-4 mt-5">
+        <button type="button" class="btn btn-primary" onclick="getValue()">Submit form</button>
+      </div>
+      <div class="co-md-5">
+        <p style="font-weight: bold;border: 5px solid rgb(37, 37, 37);" class="ml-5 mt-3 p-2">FEE SCHEDULE <br>
+          EXAMINATION FEE = Rs. 2100/=</p>
+
+      </div>
+
+    </div>
+
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
